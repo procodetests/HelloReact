@@ -7,18 +7,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1> This is Samiyalization. </h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+
+      <section className="App-main" >
+        <div className="App-cards"> card 1 </div>
+        <div className="App-cards"> card 1 </div>
+        <div className="App-cards"> card 1 </div>
+        <div className="App-cards"> card 1 </div>
+      </section>
+
+      <footer className="App-footer" >
+        <p> Copyright @ Samiyalization org. </p>
+      </footer>
+
     </div>
   );
 }
